@@ -1,5 +1,5 @@
 import React from 'react';
-import { Filter2, Map, Grid } from 'lucide-react';
+import { Filter, Map, Grid } from 'lucide-react';
 
 interface FilterBarProps {
   selectedGenre: string;
@@ -20,7 +20,7 @@ const FilterBar: React.FC<FilterBarProps> = ({
     <div className="filter-bar">
       <div className="filter-section">
         <div className="filter-label">
-          <Filter2 size={18} />
+          <Filter size={18} />
           <span>Filter by Genre:</span>
         </div>
         <select 
